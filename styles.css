@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;/*Style  for box */
+}
+.gallery{
+            border: 1px solid;
+            border-color:white;/*Style  for gallery */
+        
+        }
+.gallery img{
+                width: 100%;/*Style  for gallery image */
+                height: auto;
+            }
+.caption{
+            padding: 15px;
+            text-align: center;/*Style  for caption */
+        }
+@media only screen and (max-width:700px) {
+    .main{
+            width:50%;/*Style  for set responsive */
+            
+        }
+}
+@media only screen and (max-width:500px) {
+    .main{
+            width:100%;/*Style  for set responsive */
+        
+        }
+} 
+.row{
+        align-items: center;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 20px;/*Style  for set row */
+        margin-bottom: 20px;
+    }
+
+.nav {
+        overflow: hidden;
+        background-color: black;/*Style  for nav */
+    }
+
+.nav a {
+            float: float;
+            font-family:'Times New Roman', Times, serif;
+            color: gray;/*Style  for nav links */
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+.nav a:hover {
+                color:white;/*Style for nav link hover */
+            }
+
+.nav a.active {
+                color: white;/*Style  for nav  link active*/
+             }
+             
+            
+button{
+            background-color:green;/*Style  for button */
+      }
+
+
+ul {
+        padding: 0;
+        list-style: none;/*Style  for unorderd list */
+    }
+ul li { 
+  
+            margin-left: 35px;/*Style  for ul & li */
+            margin-right: 15px;
+      }
+ul li , ul li  img {
+                        display: block;/*Style  for ul& li */
+                    }
+ul li :hover {
+                border: 1px solid black;/*Style  for ul& li hover */
+                overflow: hidden;        
+            }
+ul li :hover img{
+                    margin: 5px;/*Style  for ul& li  hover image*/
+                }

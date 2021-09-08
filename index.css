@@ -1,0 +1,70 @@
+
+.nav {
+        overflow: hidden;
+        background-color: black;/*Style style for nav */
+    }
+
+.nav a {
+            float: float;
+            font-family:'Times New Roman', Times, serif;
+            color: gray;
+            text-align: center;
+            padding: 14px 16px;/*Style  for nav links */
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+.nav a:hover {
+                color:white;/*Style for nav link hover */
+             }
+
+.nav a.active {
+                color: white;/*Style  for nav  link active*/
+              }
+button{
+          background-color:green;/*Style  for button */
+      }
+
+.container-fluid{
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;/*Style for container-fluid */
+                    font-family:'Times New Roman', Times, serif;
+                    font-size: 10px;
+                    width: 1550;
+                    height: 800;
+                }
+.main
+{
+    width: 1550;/*Style  for main */
+    height: 800;
+}
+
+@media only screen and (max-width:700px) {
+    .main{
+            width:50%;/*Style  for set responsive */
+            margin: 6px 0;
+        }
+}
+@media only screen and (max-width:500px) {
+    .main{
+            width:100%;
+            margin: 6px 0;
+        }
+} 
+.row{
+        align-items: center;
+        margin-left: 35px;
+        margin-right: 15px;/*Style for row */
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 1550;
+        height: 800;
+    }
+h3{
+        font-family:monospace;/*Style for h3 */
+    }
+
+h1{
+    font-family: fantasy;/*Style for h1 */
+  }
